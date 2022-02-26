@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.containergrid {
+    margin-top: 15rem;
+    display: grid;
+    grid-template: repeat(2, 1fr 1fr) / repeat(2, 1fr 1fr);
+    background-color: rgb(202, 202, 202);
+    padding: 1rem;
+}
+.containergrid__title {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    font-size: 2rem;
+    text-align: center;
+}
+.containergrid__output {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
+    width: 80%;
+    margin: .3rem auto;
+    background-color: rgb(255, 255, 255);
+}
+.output__buttons {
+    grid-column: 2 / 4;
+    grid-row: 4;
+}
+.generateBtn {
+    background-color: rgb(33, 125, 231);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}

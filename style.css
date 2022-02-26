@@ -3,8 +3,11 @@
     padding: 0;
 }
 .containergrid {
+    width: 80%;
+    margin: 0 auto;
     margin-top: 15rem;
     display: grid;
+    border-radius: 10px;
     grid-template: repeat(2, 1fr 1fr) / repeat(2, 1fr 1fr);
     background-color: rgb(202, 202, 202);
     padding: 1rem;
@@ -20,6 +23,8 @@
     grid-row: 2 / 4;
     width: 80%;
     margin: .3rem auto;
+    text-align: center;
+    font-size: 1.6rem;
     background-color: rgb(255, 255, 255);
 }
 .output__buttons {
@@ -32,6 +37,6 @@
     font-size: 1.5rem;
     border-radius: 5px;
     display: block;
-    margin: 0 auto;
+    margin: 1rem auto;
     padding: .5rem 1rem;
 }
